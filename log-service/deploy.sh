@@ -14,4 +14,4 @@ echo "deploying ${appName} as docker container"
 
 docker build --tag ${appName}:${appVersion} .
 
-docker run -itd --publish ${machinePort}:${appPort} --publish localhost:${appPort}:${appPort} --name ${appName} ${appName}:${appVersion} 
+docker run -itd --publish ${machinePort}:${appPort} --publish 127.0.0.1:${appPort}:${appPort} --name ${appName} ${appName}:${appVersion} 
