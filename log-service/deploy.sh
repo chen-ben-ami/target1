@@ -14,4 +14,8 @@ echo "deploying ${appName} as docker container"
 
 docker build --tag ${appName}:${appVersion} .
 
+<<<<<<< HEAD
 docker run -itd --publish ${machinePort}:${appPort} --publish 192.168.1.100:${appPort}:${appPort} --name ${appName} ${appName}:${appVersion} 
+=======
+docker run -itd --publish ${machinePort}:${appPort} --name ${appName} ${appName}:${appVersion} 
+>>>>>>> parent of a0289c3... tcp
