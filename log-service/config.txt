@@ -1,1 +1,1 @@
-log-service 1.0 8082 8082
+log-service 1.0 8082 8082 myNetwork

@@ -1,1 +1,1 @@
-shuffle-service 1.0 8081 8081
+shuffle-service 1.0 8081 8081 myNetwork
