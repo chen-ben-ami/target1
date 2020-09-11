@@ -1,1 +1,1 @@
-shuffle-service 1.0 443 8081 ec2-3-122-102-89.eu-central-1.compute.amazonaws.com
+shuffle-service 1.0 8081 8081

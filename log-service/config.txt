@@ -1,1 +1,1 @@
-log-service 1.0 80 8082 ec2-3-122-102-89.eu-central-1.compute.amazonaws.com
+log-service 1.0 8082 8082
