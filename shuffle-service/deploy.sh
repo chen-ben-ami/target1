@@ -15,6 +15,6 @@ echo "deploying ${appName} as docker container"
 
 docker build --tag ${appName}:${appVersion} .
 
-docker run -itd --publish ${machinePort}:${appPort} --name ${appName} ${appName}:${appVersion} 
+docker run --net=${myNetwork} --publish ${machinePort}:${appPort} --name ${appName} -itd ${appName}:${appVersion} 
 
 docker network connect ${myNetwork} ${appName}
